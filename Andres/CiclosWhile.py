@@ -10,7 +10,7 @@ rangomax = 20
 
 numero_secreto = random.randint(rangomin, rangomax)
 
-intentos_maximos = 5 + (rangomax - rangomin) // 5
+intentos_maximos = 5
 intentos = 0
 puntos = 0
 adivinanza = None
